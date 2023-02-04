@@ -5,6 +5,7 @@ interface Props {
   handleSubmit: (e: FormEvent<HTMLFormElement>) => Promise<void>;
 }
 export const Child: VFC<Props> = ({ printMsg, handleSubmit }) => {
+  console.log('test')
   return (
     <>
       <p>Child Component</p>
